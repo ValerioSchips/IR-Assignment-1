@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class Controller {
     public static String docsFolder = "Docs_large"; // Selection of the folder we want work with (small or large)
     public static String generalPath = "~/Information Retrivial/Ass1/Docs/"+docsFolder+"/";
-    public static String indexDirectory = generalPath +"Index_n"; // Path to the folder of the index
+    public static String indexDirectory = generalPath +"Index"; // Path to the folder of the index
     public static String dirToBeIndexed = generalPath + "full_docs";  // Path to the folder containing files to be indexed
     public static String queryPath = generalPath + "main_queries.csv"; // Path to the queries file
     public static String resultJsonPath = generalPath + "answer_main.json"; // Path where the queries result will be saved
